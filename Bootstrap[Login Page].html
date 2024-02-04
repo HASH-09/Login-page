@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        .circle {
+            font-size: 40px;
+        }
+
+        .joke {
+            font-size: 20px;
+            font-weight: bolder;
+
+        }
+
+        .twitter{
+            color:white;
+        }
+
+        .link {
+            font-size: 14px;
+        }
+
+
+        .circle {
+            width: 55px;
+            height: 55px;
+        }
+    </style>
+
+    <head>
+
+    <body>
+        <div class="container fluid">
+
+            <div class="row">
+
+                <div class="col-md-4 m-5">
+                    <h6 class="control">Doesn't have an account yet ? <a href="#" class="link-success">Sign-up</a> </h6>
+                    <br>
+
+                    <label class="joke">Email Address  </label><br>
+                    <input type="email" class="form-control" placeholder="email@example.com" required><br>
+
+                    <lable class="joke">Password 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#" class="link-success link">Forget password?</a>
+                    </lable>
+                    <br>
+                    <input type="password" class="form-control" placeholder="password" required id="pass">
+                    <i class="fa fa-eye" aria-hidden="true" style="position: absolute;top: 38%;left:36% ;cursor: pointer;" onclick="password()"></i>
+                    <script>
+                        function password(){
+                            var p=document.getElementById("pass");
+                            if(p.type=='password'){
+                                p.type='text';
+                            }else{
+                                p.type='password';
+                            }
+                        }
+                        </script>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-1 mt-1"> <input type="checkbox"></div>
+                        <div class="col-md-6">
+                            <h6>Remember me</h6>
+                        </div>
+                    </div>
+                    <br>
+
+                    <button class="btn btn-success form-control ">Login</button>
+                    <br><br><br>
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="dropdown-divider"></div>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <h6>or</h6>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </div>
+
+<br>
+                    <br>
+                    <div class="row ">
+
+                        <div class="col-md-4" style="text-align: right;"><a
+                                href="https://www.facebook.com/login/"><button
+                                    class="btn btn-primary rounded-circle circle"><i class="fa fa-facebook"
+                                        aria-hidden="true"></i></button></a></div>
+
+                        <div class="col-md-4 text-center"><a
+                                href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><button
+                                    class="btn btn-info rounded-circle circle"><i class="fa fa-twitter twitter"
+                                        aria-hidden="true"></i></button></a></div>
+
+                        <div class="col-md-4" style="text-align: left;"><a
+                                href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1509006615%3A1695565857249522&theme=glifs"><button
+                                    class="btn btn-danger rounded-circle circle"><i class="fa fa-Google"
+                                        aria-hidden="true"></i></button></a></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4 m-5">
+
+                    <img
+                        src="https://media.istockphoto.com/id/1281150061/vector/register-account-submit-access-login-password-username-internet-online-website-concept.jpg?s=612x612&w=0&k=20&c=9HWSuA9IaU4o-CK6fALBS5eaO1ubnsM08EOYwgbwGBo=">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+<body>
+
+</html>
